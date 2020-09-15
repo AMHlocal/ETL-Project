@@ -8,4 +8,8 @@ Making personal branch:
 4) to upload to repo: git add .  -->  git commit -m "<a descriptive message>" --> git push -u <your_branch>
 5) Please let Austin know when you've pushed, merging will happen after.
 
+<<<<<<< HEAD
 Nick is adding some Notes
+=======
+Test Edit
+>>>>>>> paulfhardy
