@@ -7,3 +7,5 @@ Making personal branch:
 3) to switch branches: git checkout <branch_name> 
 4) to upload to repo: git add .  -->  git commit -m "<a descriptive message>" --> git push -u <your_branch>
 5) Please let Austin know when you've pushed, merging will happen after.
+
+Nick is adding some Notes
