@@ -7,22 +7,35 @@ Making personal branch:
 3) to switch branches: git checkout <branch_name> 
 4) to upload to repo: git add .  -->  git commit -m "<a descriptive message>" --> git push origin <your_branch>
 5) Please let Austin know when you've pushed, merging will happen after.
-<<<<<<< HEAD
 
 2 data sources
 
-1.	https://public.opendatasoft.com/explore/dataset/covid-19-pandemic-worldwide-data/table/?disjunctive.zone&disjunctive.category
-a.	JSON
-i.	Utilizing a JSON normalizer to parse out large dataset
-b.	Drop Columns
-c.	Joining on Zone
+Sources of data we will extract from: 
+1.	Data Soft – Covid-19 Pandemic -Worldwide.
+This is the data for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE). Also, Supported by ESRI Living Atlas Team and the Johns Hopkins University Applied Physics Lab (JHU APL).
 
 2.	https://www.kaggle.com/eng0mohamed0nabil/population-by-country-2020
 a.	Drop Columns
 b.	Joining on population 
 
+World Population and top 20 Countries Live Clock. Population in the past, present, and future. Milestones. Global Growth Rate. World population by Region and by Religion. Population Density, Fertility Rate, Median Age, Migrants. All-time population total.
+
+Transformation of the data:
+Data Soft – Covid-19 Pandemic -Worldwide:
+•	Sub Zone and Location columns will be removed. Keeping Date, Zone, and Count.
+•	The table appears to be a running total, so we will be sorting data by date descending to have most recent date.
+•	Original plan – extract data using JSON – Complications {…}
+Kaggle - Population by Country 2020: 
+•	Several columns will need to be removed as they are not needed. Keeping Country and Population only. 
+•	Population Data will be obtained utilizing .csv
+
+Type of final production database data is loaded into:
+We used a relational database (PostgreSQL) to link the data by our common identifier, Country.
+Final tables/collections that we used in the production database:
+•	New final table with found values by country. 
+•	Total population and most recent confirmed Covid 19 stats. Do we want to categorize Deaths, confirmed, and Recovered?
+o	Which countries have the highest rate of Covid 19 cases? 
+Team Members: Austin, Rob, Paul, and Nick
 
 Postgres database 
 Building data-model and schema
-=======
->>>>>>> a4dac71ff4f0b5a259bef645ad82ac43a7960619
