@@ -5,7 +5,7 @@ Making personal branch:
 1) clone repo to local
 2) nav to repo, type in: git checkout -b <your_branch>
 3) to switch branches: git checkout <branch_name> 
-4) to upload to repo: git add .  -->  git commit -m "<a descriptive message>" --> git push -u <your_branch>
+4) to upload to repo: git add .  -->  git commit -m "<a descriptive message>" --> git push origin <your_branch>
 5) Please let Austin know when you've pushed, merging will happen after.
 
 2 data sources
@@ -37,3 +37,5 @@ Final tables/collections that we used in the production database:
 o	Which countries have the highest rate of Covid 19 cases? 
 Team Members: Austin, Rob, Paul, and Nick
 
+Postgres database 
+Building data-model and schema
