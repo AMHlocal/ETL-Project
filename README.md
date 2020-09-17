@@ -8,27 +8,15 @@ Making personal branch:
 4) to upload to repo: git add .  -->  git commit -m "<a descriptive message>" --> git push -u <your_branch>
 5) Please let Austin know when you've pushed, merging will happen after.
 
-<<<<<<< HEAD
-
-ETL Project Proposal
-Team Members: Austin, Rob, Paul, and Nick
-Covid 19 cases by Country By Country Population 
-Our group will be looking at Covid 19 cases by country and comparing that with country population. 
-=======
 2 data sources
->>>>>>> 5962bc9d143a40cfbc87236c644a2c9e94aa0c10
 
 Sources of data we will extract from: 
 1.	Data Soft – Covid-19 Pandemic -Worldwide.
 This is the data for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE). Also, Supported by ESRI Living Atlas Team and the Johns Hopkins University Applied Physics Lab (JHU APL).
 
-<<<<<<< HEAD
-2.	Kaggle - Population by Country 2020.
-=======
 2.	https://www.kaggle.com/eng0mohamed0nabil/population-by-country-2020
 a.	Drop Columns
 b.	Joining on population 
->>>>>>> 5962bc9d143a40cfbc87236c644a2c9e94aa0c10
 
 World Population and top 20 Countries Live Clock. Population in the past, present, and future. Milestones. Global Growth Rate. World population by Region and by Religion. Population Density, Fertility Rate, Median Age, Migrants. All-time population total.
 
